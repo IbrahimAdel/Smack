@@ -349,7 +349,7 @@
                                     <constraint firstAttribute="width" constant="100" id="utm-Gr-1hp"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-YK-xTS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNX-YK-xTS">
                                 <rect key="frame" x="104" y="425" width="168" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Generate Background Color">
@@ -375,6 +375,7 @@
                             <constraint firstItem="wNX-YK-xTS" firstAttribute="top" secondItem="yL2-oR-Jtc" secondAttribute="bottom" constant="4" id="7fY-Xx-kqu"/>
                             <constraint firstItem="yL2-oR-Jtc" firstAttribute="width" secondItem="16w-Co-a66" secondAttribute="width" id="Cay-bd-ggn"/>
                             <constraint firstItem="EDz-0g-G8E" firstAttribute="top" secondItem="eSI-am-Tdz" secondAttribute="bottom" constant="40" id="MUU-x8-Bs6"/>
+                            <constraint firstItem="wNX-YK-xTS" firstAttribute="centerX" secondItem="rLd-sC-Xbm" secondAttribute="centerX" id="Ndz-Wp-z8C"/>
                             <constraint firstItem="eSI-am-Tdz" firstAttribute="centerX" secondItem="rLd-sC-Xbm" secondAttribute="centerX" id="RVa-Qr-yFg"/>
                             <constraint firstItem="EDz-0g-G8E" firstAttribute="centerX" secondItem="rLd-sC-Xbm" secondAttribute="centerX" id="WvK-Eu-moL"/>
                             <constraint firstItem="E7v-9G-Oor" firstAttribute="bottom" secondItem="gAL-2t-KM8" secondAttribute="bottom" constant="20" id="XRU-xa-K1A"/>
