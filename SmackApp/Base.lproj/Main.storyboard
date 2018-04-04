@@ -203,6 +203,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginPressed:" destination="rkN-mY-eFF" eventType="touchUpInside" id="5jh-Me-DSD"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="nkV-NM-3u2">
                                 <rect key="frame" x="129.5" y="80" width="116" height="40"/>
@@ -242,6 +245,8 @@
                         <viewLayoutGuide key="safeArea" id="v9F-Ek-SYK"/>
                     </view>
                     <connections>
+                        <outlet property="passTXT" destination="HlP-Ye-dj5" id="F3K-S8-vvF"/>
+                        <outlet property="usernameTXT" destination="vxc-zy-hzC" id="ENV-9X-fnO"/>
                         <segue destination="a4c-e6-Ytj" kind="show" identifier="toCreateAccount" id="jAl-jw-lXy"/>
                     </connections>
                 </viewController>
@@ -335,6 +340,9 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountPressed:" destination="a4c-e6-Ytj" eventType="touchUpInside" id="FxN-JX-z7q"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSI-am-Tdz">
                                 <rect key="frame" x="112" y="60" width="151.5" height="20.5"/>
@@ -391,6 +399,8 @@
                         <viewLayoutGuide key="safeArea" id="E7v-9G-Oor"/>
                     </view>
                     <connections>
+                        <outlet property="emailTXT" destination="Llx-7B-awf" id="bdr-w0-RHf"/>
+                        <outlet property="passTXT" destination="GX6-Zq-e6d" id="sCb-U9-hEK"/>
                         <segue destination="pcT-kg-0Os" kind="unwind" identifier="unwindToChannelVC" unwindAction="prepareForUnwindWithSegue:" id="r61-tf-w7H"/>
                     </connections>
                 </viewController>
@@ -407,7 +417,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mx4-P2-xPy" customClass="GradiantView" customModule="SmackApp" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mx4-P2-xPy" customClass="GradiantView" customModule="SmackApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udC-nG-qT6">
@@ -437,8 +447,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Mx4-P2-xPy" firstAttribute="top" secondItem="1h1-3G-H3d" secondAttribute="top" id="Imr-4U-MII"/>
                             <constraint firstItem="Mx4-P2-xPy" firstAttribute="trailing" secondItem="1h1-3G-H3d" secondAttribute="trailing" id="Rpx-mt-3YE"/>
+                            <constraint firstItem="Mx4-P2-xPy" firstAttribute="top" secondItem="3ig-Fi-Yh5" secondAttribute="top" id="dLR-tH-goo"/>
                             <constraint firstItem="Mx4-P2-xPy" firstAttribute="leading" secondItem="1h1-3G-H3d" secondAttribute="leading" id="yGU-t3-LYz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1h1-3G-H3d"/>
