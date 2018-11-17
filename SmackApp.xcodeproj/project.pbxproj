@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03FD58591CB16BD79544DE0F /* Pods_SmackApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAE2BDE7FD4A2965AB7C265 /* Pods_SmackApp.framework */; };
+		0F1C951521A048AB0080D380 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C951421A048AB0080D380 /* UserDataService.swift */; };
 		0F99DB322073CEB200D87F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F99DB312073CEB200D87F62 /* AppDelegate.swift */; };
 		0F99DB372073CEB200D87F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F99DB352073CEB200D87F62 /* Main.storyboard */; };
 		0F99DB392073CEB300D87F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F99DB382073CEB300D87F62 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1C951421A048AB0080D380 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		0F99DB2E2073CEB200D87F62 /* SmackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F99DB312073CEB200D87F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F99DB362073CEB200D87F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE968932074413600B1BCEA /* AuthService.swift */,
+				0F1C951421A048AB0080D380 /* UserDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				0FE968782074072300B1BCEA /* ChatVC.swift in Sources */,
 				0F99DB322073CEB200D87F62 /* AppDelegate.swift in Sources */,
 				0FE9688820740DF500B1BCEA /* SWRevealViewController.m in Sources */,
+				0F1C951521A048AB0080D380 /* UserDataService.swift in Sources */,
 				0FE9688C2074237000B1BCEA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
