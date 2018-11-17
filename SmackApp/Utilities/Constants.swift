@@ -22,7 +22,13 @@ let URL_USER_ADD = "\(BASE_URL)user/add"
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND = "unwindToChannelVC"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
+//colors
+let SmackPurplePlaceholder = #colorLiteral(red: 0.3254901961, green: 0.4196078431, blue: 0.7764705882, alpha: 0.5)
+
+//Notification (Events)
+let USER_DATA_CHANGED = Notification.Name("UserDataChanged")
 
 //User Defaults
 
