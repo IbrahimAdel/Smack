@@ -117,6 +117,7 @@
                         <viewLayoutGuide key="safeArea" id="00Z-lF-7fD"/>
                     </view>
                     <connections>
+                        <outlet property="avatarImg" destination="sK8-bu-jzZ" id="aQY-7S-Wfu"/>
                         <outlet property="loginBtn" destination="fWT-ua-bwH" id="Hsd-Sg-uZu"/>
                         <segue destination="rkN-mY-eFF" kind="show" identifier="toLogin" id="RRs-Gf-Cvf"/>
                     </connections>
@@ -153,7 +154,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="6zq-jG-IYk">
                                 <rect key="frame" x="62.5" y="160" width="250" height="82"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxc-zy-hzC">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vxc-zy-hzC">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="250" id="3Db-5u-rVO"/>
@@ -241,8 +242,8 @@
                         <viewLayoutGuide key="safeArea" id="v9F-Ek-SYK"/>
                     </view>
                     <connections>
+                        <outlet property="emailTXT" destination="vxc-zy-hzC" id="ENV-9X-fnO"/>
                         <outlet property="passTXT" destination="HlP-Ye-dj5" id="F3K-S8-vvF"/>
-                        <outlet property="usernameTXT" destination="vxc-zy-hzC" id="ENV-9X-fnO"/>
                         <segue destination="a4c-e6-Ytj" kind="show" identifier="toCreateAccount" id="jAl-jw-lXy"/>
                     </connections>
                 </viewController>
